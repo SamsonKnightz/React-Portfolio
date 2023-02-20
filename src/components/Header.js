@@ -8,7 +8,7 @@ function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
+              src="https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -19,7 +19,7 @@ function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
+              src="https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_960_720.jpg"
               alt="Second slide"
             />
     
@@ -31,7 +31,7 @@ function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
+              src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg"
               alt="Third slide"
             />
     
@@ -46,5 +46,4 @@ function Header() {
       );
     }
 
-    
 export default Header;
