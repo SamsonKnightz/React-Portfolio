@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function AboutMe() {
+export default function Portfolio() {
   return (
     <div class="container p-2 mt-3">
     <h1 class="text-center text-primary fw-bolder pb-3 mb-3">Portfolio</h1>

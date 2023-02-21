@@ -60,7 +60,7 @@ function Contact() {
         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
           a matter of hours to help you.</p>
         <form class="row" className="form">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="md-form mb-0">
               <input
                 value={email}
