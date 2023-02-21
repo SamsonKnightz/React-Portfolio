@@ -1,26 +1,92 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-export default function Contact() {
+
+// Here we import a helper function that will check if the email is valid
+import { checkPassword, validateEmail } from '../../utils/helpers';
+
+function Contact() {
+  // Create state variables for the fields in the form
+  // We are also setting their initial values to an empty string
+  const [email, setEmail] = useState('');
+  const [userName, setUserName] = useState('');
+  const [password, setPassword] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    // Based on the input type, we set the state of either email, username, and password
+    if (inputType === 'email') {
+      setEmail(inputValue);
+    } else if (inputType === 'userName') {
+      setUserName(inputValue);
+    } else {
+      setPassword(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    e.preventDefault();
+
+    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+    if (!validateEmail(email) || !userName) {
+      setErrorMessage('Email or username is invalid');
+      // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+    }
+    if (!checkPassword(password)) {
+      setErrorMessage(
+        `Choose a more secure password for the account: ${userName}`
+      );
+      return;
+    }
+    alert(`Hello ${userName}`);
+
+    // If everything goes according to plan, we want to clear out the input after a successful registration.
+    setUserName('');
+    setPassword('');
+    setEmail('');
+  };
+
   return (
-    <div class="container p-2 mt-3">
-    <h1 class="text-center text-primary fw-bolder pb-3 mb-3">Contact</h1>
-    <div class="col-4">
-    <img src="" className='img-fluid rounded' alt='Profile photo' />
+    <div>
+      <p>Hello {userName}</p>
+      <form className="form">
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="email"
+        />
+        <input
+          value={userName}
+          name="userName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="username"
+        />
+        <input
+          value={password}
+          name="password"
+          onChange={handleInputChange}
+          type="password"
+          placeholder="Password"
+        />
+        <button type="button" onClick={handleFormSubmit}>Submit</button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
-    <div class="col-6">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-      velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-      ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-      non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-      ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-      rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-      tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-      porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-      vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus.
-    </p>
-  </div>
-  </div>
   );
 }
+
+export default Contact;

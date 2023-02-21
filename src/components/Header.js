@@ -16,7 +16,7 @@ function Header() {
               <h3 className="text-white fw-bolder">Samson Vang's React-Portfolio</h3>
               <p>"The only place that fear can exist is in our thoughts of the future. 
                 It is a product of our imagination, causing us to fear things that do not at present and may not ever exist. 
-                That is near insanity."</p>
+                "</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
