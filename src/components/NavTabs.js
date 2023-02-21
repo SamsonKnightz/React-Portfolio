@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#About Me"
+          href="#AboutMe"
           onClick={() => handlePageChange('AboutMe')}
 
           className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}

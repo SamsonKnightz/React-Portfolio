@@ -3,7 +3,7 @@ import React from 'react';
 const styles = {
   sectionStyles: {
     background: 'black',
-    color: "white",
+    color: "white"
 
   },
 };
@@ -13,7 +13,7 @@ export default function Portfolio() {
   return (
     <section style={styles.sectionStyles} className="section">
     <div class="container p-2 mt-3">
-    <h1 class="text-center text-primary fw-bolder pb-3 mb-3">Portfolio</h1>
+    <h1 class="text-center text-light fw-bolder pb-3 mb-3">Portfolio</h1>
     <div class="col-4">
     <img src="" className='img-fluid rounded' alt='Profile photo' />
     </div>
