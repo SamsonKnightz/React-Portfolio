@@ -12,8 +12,8 @@ const styles = {
 export default function Resume() {
   return (
     <section style={styles.sectionStyles} className="section">
-    <div class="container p-2 mt-3">
-    <h1 class="text-center text-light fw-bolder pb-3 mb-3">Resume</h1>
+    <div class="container w-50 p-3 mt-3">
+    <h1 class="h1-responsive font-weight-bold text-center text-light fw-bolder pb-3 mb-3">Resume</h1>
     <div class="col-4">
     <img src="" className='img-fluid rounded' alt='Profile photo' />
     </div>

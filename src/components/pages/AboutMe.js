@@ -14,7 +14,7 @@ const styles = {
 export default function AboutMe() {
   return (
     <section style={styles.sectionStyles} className="section">
-    <div class="container p-2 mt-3">
+    <div class="container w-50 p-3 mt-3">
             <h2 class="text-center text-light fw-bolder pb-3 mb-3">About Me</h2>
             <div class="row d-flex justify-content-center">
                 <div class="col-4">
