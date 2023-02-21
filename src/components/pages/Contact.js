@@ -1,8 +1,19 @@
 import React, { useState } from 'react';
 
 
+
+
 // Here we import a helper function that will check if the email is valid
 import { checkPassword, validateEmail } from '../../utils/helpers';
+
+import '../../styles/Section.css';
+
+const styles = {
+    sectionStyles: {
+      background: 'black',
+
+    },
+  };
 
 function Contact() {
   // Create state variables for the fields in the form
@@ -54,6 +65,7 @@ function Contact() {
   };
 
   return (
+    <section style={styles.sectionStyles} className="section">
     <section class="mb-4">
       <div class="container w-50 p-3 mt-3">
         <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
@@ -121,6 +133,7 @@ function Contact() {
           </div>
         )}
       </div>
+    </section>
     </section>
   );
 }

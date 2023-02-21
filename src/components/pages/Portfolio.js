@@ -1,8 +1,16 @@
 import React from 'react';
 
+const styles = {
+  sectionStyles: {
+    background: 'black',
+
+  },
+};
+
 
 export default function Portfolio() {
   return (
+    <section style={styles.sectionStyles} className="section">
     <div class="container p-2 mt-3">
     <h1 class="text-center text-primary fw-bolder pb-3 mb-3">Portfolio</h1>
     <div class="col-4">
@@ -23,6 +31,7 @@ export default function Portfolio() {
     </p>
   </div>
   </div>
+  </section>
 
-  )
+  );
 }

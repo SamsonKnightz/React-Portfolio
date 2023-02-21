@@ -1,7 +1,17 @@
 import React from 'react';
 
+import '../../styles/Section.css';
+
+const styles = {
+    sectionStyles: {
+      background: 'black',
+
+    },
+  };
+
 export default function Resume() {
   return (
+    <section style={styles.sectionStyles} className="section">
     <div class="container p-2 mt-3">
     <h1 class="text-center text-primary fw-bolder pb-3 mb-3">Resume</h1>
     <div class="col-4">
@@ -22,5 +32,6 @@ export default function Resume() {
     </p>
   </div>
   </div>
+  </section>
   );
 }
