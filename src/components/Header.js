@@ -13,8 +13,8 @@ function Header() {
               height="300"
             />
             <Carousel.Caption>
-              <h3 className="text-white fw-bolder">First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3 className="text-white fw-bolder">Samson Vang's React-Portfolio</h3>
+              <p>The only place that fear can exist is in our thoughts of the future. It is a product of our imagination, causing us to fear things that do not at present and may not ever exist. That is near insanity.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -26,8 +26,8 @@ function Header() {
             />
     
             <Carousel.Caption>
-              <h3 className="text-white fw-bolder">Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3 className="text-white fw-bolder">Samson Vang's React-Portfolio</h3>
+              <p>'Insanity is doing the same thing over and over again, but expecting different results." -Vaas Montenegro</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -39,9 +39,9 @@ function Header() {
             />
     
             <Carousel.Caption>
-              <h3 className="text-white fw-bolder">Third slide label</h3>
+              <h3 className="text-white fw-bolder">Samson Vang's React-Portfolio</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Everything is OK in the end; if it’s not OK it’s not the end.
               </p>
             </Carousel.Caption>
           </Carousel.Item>

@@ -1,7 +1,9 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/Header";
+import Footer from "./components/Footer"
 import './App.css';
+
 
 
 
@@ -10,7 +12,7 @@ function App() {
     <div>
       <Header/>
       <PortfolioContainer />
-      <footer/>
+      <Footer/>
     </div>
 
   );
