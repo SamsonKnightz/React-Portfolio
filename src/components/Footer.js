@@ -1,7 +1,16 @@
 import React from "react"
 
+const styles = {
+    sectionStyles: {
+      background: 'black',
+      color: "white",
+  
+    },
+  };
+
 function Footer() {
     return (
+        <section style={styles.sectionStyles} className="section">
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top sticky-bottom">
                 <p class="col-md-4 mb-0 text-muted">© 2023 Samson Vang</p>
@@ -13,6 +22,7 @@ function Footer() {
                 </ul>
             </footer>
         </div>
+        </section>
     );
 }
 

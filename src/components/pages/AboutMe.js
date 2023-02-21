@@ -5,6 +5,7 @@ import '../../styles/Section.css';
 const styles = {
     sectionStyles: {
       background: 'black',
+      color: "white",
 
     },
   };

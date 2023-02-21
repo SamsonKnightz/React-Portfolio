@@ -1,8 +1,17 @@
 import React from 'react';
 
+const styles = {
+  sectionStyles: {
+    background: 'black',
+    color: "white",
+
+  },
+};
+
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <section style={styles.sectionStyles} className="section">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -42,6 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </section>
   );
 }
 

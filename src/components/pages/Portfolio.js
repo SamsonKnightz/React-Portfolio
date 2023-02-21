@@ -3,6 +3,7 @@ import React from 'react';
 const styles = {
   sectionStyles: {
     background: 'black',
+    color: "white",
 
   },
 };
