@@ -4,6 +4,8 @@ const styles = {
   sectionStyles: {
     background: 'black',
     color: "white",
+    text: "white"
+    
 
   },
 };
