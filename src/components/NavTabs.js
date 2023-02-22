@@ -1,10 +1,9 @@
 import React from 'react';
+import '../styles/Navbar.css';
 
 const styles = {
-  sectionStyles: {
+  navbarStyles: {
     background: 'black',
-    color: "white",
-    text: "white"
     
 
   },
@@ -13,7 +12,7 @@ const styles = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <section style={styles.sectionStyles} className="section">
+    <nav style={styles.navbarStyles} className="navbar">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -52,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-    </section>
+    </nav>
   );
 }
 
