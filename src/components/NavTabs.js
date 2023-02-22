@@ -4,7 +4,6 @@ import '../styles/Navbar.css';
 const styles = {
   navbarStyles: {
     background: 'black',
-    
 
   },
 };
@@ -12,7 +11,7 @@ const styles = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav style={styles.navbarStyles} className="navbar">
+    <nav style={styles.navbarStyles} className="navbar justify-content-center">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
