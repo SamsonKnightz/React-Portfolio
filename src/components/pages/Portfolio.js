@@ -1,39 +1,108 @@
 import React from 'react';
+
+
 import '../../styles/Section.css';
 
-const styles = {
-  sectionStyles: {
-    background: 'black',
-    color: "white"
-
-  },
-};
 
 
 export default function Portfolio() {
   return (
-    <section style={styles.sectionStyles} className="section">
-    <div class="container w-50 p-3 mt-3">
-    <h1 class="text-center text-light fw-bolder pb-3 mb-3">Portfolio</h1>
-    <div class="col-4">
-    <img src="" className='img-fluid rounded' alt='Profile photo' />
+    <div class="bg-black row row-cols-1 row-cols-md-4 g-6 p-3">
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Project 1
+        </p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
     </div>
-    <div class="col-6">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-      velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-      ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-      non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-      ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-      rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-      tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-      porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-      vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus.
-    </p>
   </div>
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Project 2
+        </p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
+    </div>
   </div>
-  </section>
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Project 3</p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top" alt="Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Project 4
+        </p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Project 3</p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Project 3</p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Project 3</p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+  <div class="card h-100">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Project 3</p>
+        <button>this is a button</button>
+        <button>this is a button</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   );
 }
