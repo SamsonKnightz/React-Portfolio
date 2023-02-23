@@ -1,0 +1,15 @@
+.portfolio {
+    background: black;
+    justify-content: center;
+    
+  }
+  
+  .portfolio a {
+    color: white;
+  }
+  
+  .portfolio a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
