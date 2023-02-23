@@ -19,7 +19,7 @@ export default function Portfolio() {
           <div class="card-body">
             <h5 class="card-title text-white text-center p-4">Card title</h5>
             <p class="card-text text-white">
-              
+              This Project was DOPE!
             </p>
             <p>
               <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Code</a>
@@ -58,8 +58,8 @@ export default function Portfolio() {
             <p class="card-text text-white">
               Project 4
             </p>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Light</a>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Light</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Code</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Live</a>
           </div>
         </div>
       </div>
@@ -69,8 +69,8 @@ export default function Portfolio() {
           <div class="card-body">
             <h5 class="card-title text-center text-white p-4">Card title</h5>
             <p class="card-text text-white">Project 3</p>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Light</a>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Light</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Code</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Live</a>
           </div>
         </div>
       </div>
@@ -80,8 +80,8 @@ export default function Portfolio() {
           <div class="card-body">
             <h5 class="card-title text-center text-white p-4">Card title</h5>
             <p class="card-text text-white">Project 3</p>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Light</a>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Light</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Code</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" style={styles.portfolioStyles}>Live</a>
           </div>
         </div>
       </div>
