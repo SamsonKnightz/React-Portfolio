@@ -19,11 +19,11 @@ export default function Portfolio() {
           <div class="card-body">
             <h5 class="card-title text-white text-center p-4">Card title</h5>
             <p class="card-text text-white">
-              Project 1
+              
             </p>
             <p>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Light</a>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Light</a>
+              <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Code</a>
+              <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Live</a>
             </p>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function Portfolio() {
           <div class="card-body">
             <h5 class="card-title text-white text-center p-4">Card title</h5>
             <p class="card-text text-white">Project 2</p>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Light</a>
-            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Light</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Code</a>
+            <a type="button" class="btn btn-light btn-rounded" href="https://github.com/" >Live</a>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-        </div>
+    </div>
 
   );
 }

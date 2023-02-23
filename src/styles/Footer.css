@@ -1,13 +1,13 @@
 .footer {
     background: black;
-    justify-content: center;
+    justify-content: space-around;
     
   }
   
   .footer a:hover {
     color: white;
     text-decoration: none;
-    justify-content: center;
+    justify-content: space-around;
   }
   
   
