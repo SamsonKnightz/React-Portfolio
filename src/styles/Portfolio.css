@@ -1,15 +1,21 @@
 .portfolio {
     background: black;
     justify-content: center;
+    padding: 25px;
     
   }
   
   .portfolio a {
     color: white;
+    text-decoration: none;
+    justify-content: center;
+    background:black
   }
   
-  .portfolio a:hover {
+  .portfolio a:hover{
     text-decoration: underline;
     color: white;
+    background: black;
+
   }
   
